@@ -26,15 +26,15 @@ const Header = () => {
             </nav>
 
             <div className='flex gap-0 mx-24 z-10'>
-                <button className='text-sm px-6 py-2 mx-4 mt-5 font- rounded-[9px] hover:text-[black] w-28 h-12 text-[#fff] border-2 border-[#fff]'>
+                <button className='text-sm px-6 py-2 mx-4 mt-3 font- rounded-[9px] hover:text-[black] w-28 h-12 text-[#fff] border-2 border-[#fff]'>
                     LOG IN
                 </button>
 
-                <button className='text-sm px-6 py-2 mx-4 mt-5 font-semibold rounded-[9px] hover:text-[black] w-28 h-12 text-[#fff] border-2 border-[#EC522E] bg-[#EC522E]'>
+                <button className='text-sm px-6 py-2 mx-4 mt-3 font-semibold rounded-[9px] hover:text-[black] w-28 h-12 text-[#fff] border-2 border-[#EC522E] bg-[#EC522E]'>
                     SIGN UP
                 </button>
             </div>
-            <div className=' absolute top-0 right-0 w-[42%] h-[450px] bg-[#666666] opacity-[1]'></div>
+            <div className=' absolute top-0 right-0 w-[41%] h-[503px] bg-[#666666] opacity-[1]'></div>
         </section>
 
     )
