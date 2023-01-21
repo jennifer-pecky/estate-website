@@ -24,17 +24,18 @@ const Hero = () => {
             </div>
 
 
-            <Carousel className='absolute top-[5.5rem] right-[7%] w-[38%]'>
+
+            <div className='absolute top-[5.5rem] right-[7%] w-[38%]'>
                 <div>
+                    <img src={img} alt="" />
+                </div>
+                {/* <div>
                     <img src={img} alt="" />
                 </div>
                 <div>
                     <img src={img} alt="" />
-                </div>
-                <div>
-                    <img src={img} alt="" />
-                </div>
-            </Carousel>
+                </div> */}
+            </div>
 
 
         </section >
