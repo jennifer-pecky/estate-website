@@ -1,6 +1,9 @@
 import React from 'react'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 import img from "../../../Asset/images/Rectangle 2.png"
+import { Carousel } from 'react-responsive-carousel'
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import CEO from '../second-hero/CEO'
 
 const Hero = () => {
     return (
@@ -21,9 +24,21 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='absolute top-[5.5rem] right-28'>
-                <img src={img} alt="" />
+
+            <div className='absolute top-[5.5rem] right-[7%] w-[38%]'>
+                <div>
+                    <img src={img} alt="" />
+                </div>
+                {/* <div>
+                    <img src={img} alt="" />
+                </div>
+                <div>
+                    <img src={img} alt="" />
+                </div> */}
             </div>
+
+            <CEO />
+
         </section >
 
     )
