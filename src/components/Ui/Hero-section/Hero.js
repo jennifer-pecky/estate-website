@@ -3,6 +3,7 @@ import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 import img from "../../../Asset/images/Rectangle 2.png"
 import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
+import CEO from '../second-hero/CEO'
 
 const Hero = () => {
     return (
@@ -14,7 +15,7 @@ const Hero = () => {
             </div>
 
 
-            <div className='border-2 border-[#666666] max-w-[44%] mx-[7%] rounded-md'>
+            <div className='border-2 border-[#666666] max-w-[42%] mx-[7%] rounded-md'>
                 <div className='flex mx-5 text-[#666666] font-medium text-base p-2 items-center justify-between'>
                     <li className='flex items-center'>Search location < MdOutlineKeyboardArrowDown /></li>
                     <li className='flex items-center'>Property type < MdOutlineKeyboardArrowDown /></li>
@@ -36,8 +37,7 @@ const Hero = () => {
                     <img src={img} alt="" />
                 </div> */}
             </div>
-
-
+            <CEO />
         </section >
 
     )
