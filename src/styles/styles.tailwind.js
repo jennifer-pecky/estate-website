@@ -1,5 +1,5 @@
 const styles = {
-    globalPadding: "mt-28"
+    globalPadding: "mt-36"
 }
 
 export { styles }
