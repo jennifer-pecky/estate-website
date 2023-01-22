@@ -8,6 +8,14 @@ module.exports = {
       height: {
 
         "two": "20%"
+      },
+
+      screens: {
+        'mobile': '640px',
+
+        'laptop': '1453px',
+
+        'desktop': '1280px'
       }
     },
   },
