@@ -5,15 +5,15 @@ import { styles } from '../../../styles/styles.tailwind'
 const CEO = () => {
     const { globalPadding } = styles
     return (
-        <section className={`pt-10 px-20 bg-[#F9F9F9] ${globalPadding}`}>
-            <div className='text-8xl font-semibold text-[#EC522E] dark:text-end mr-14'>
+        <section className={`px-20 bg-[#F9F9F9] ${globalPadding}`}>
+            <div className='text-8xl font-semibold text-[#EC522E] dark:text-end mr-14 pt-[2rem]'>
                 “
             </div>
             <div className='flex w-full max-w-full space-x-12 '>
                 <div className='w-full max-w-[30%] relative'>
 
-                    <div className={`bg-[#666666] h-[450px] rounded-lg mb-2 absolute w-full bottom-20 `}></div>
-                    <strong className='absolute top-72 text-[13px] left-2'>invest and relax, we work for your dream come true.</strong>
+                    <div className={`bg-[#666666] h-[450px] rounded-lg mb-2 absolute w-full bottom-10 `}></div>
+                    <strong className='absolute top-[20rem] text-[13px] left-2'>invest and relax, we work for your dream come true.</strong>
                 </div>
 
                 <div className=' w-[70%] flex flex-col space-y-5'>
