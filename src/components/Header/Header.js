@@ -26,7 +26,7 @@ const Header = () => {
             </nav>
 
             <div className='flex mx-24 z-10'>
-                <button className='text-sm px-6 py-2 mx-4 mt-3 font- rounded-[9px] hover:text-[black] w-28 h-12 text-[#fff] border-2 border-[#fff]'>
+                <button className='text-sm px-6 py-2 mx-4 mt-3 font-semibold rounded-[9px] hover:text-[black] w-28 h-12 text-[#fff] border-2 border-[#fff]'>
                     LOG IN
                 </button>
 
