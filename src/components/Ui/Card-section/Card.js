@@ -1,7 +1,7 @@
 import React from 'react'
 import { styles } from '../../../styles/styles.tailwind'
 import img from "../../../Asset/images/png2.png"
-
+// import {CARD__DATA} from "../../../Asset/Data/Data"
 
 const Card = () => {
     const { globalPadding } = styles
