@@ -8,7 +8,8 @@ function App() {
   const cards = CARD__DATA.map(item => {
     return (
       <Card
-        img={item.img}
+        id={item.id}
+        img={item.imgUrl}
         title={item.title}
         prize={item.prize}
         desc={item.desc}
@@ -20,7 +21,9 @@ function App() {
     <>
       <Header />
       <Hero />
-      {cards}
+      <div className="flex">
+        {cards}
+      </div>
     </>
   );
 }
