@@ -2,7 +2,7 @@ import React from 'react'
 
 const Listing = () => {
     return (
-        <div className='flex justify-between'>
+        <div className='flex justify-between px-20'>
             <h1 className='font-bold text-4xl'>Featured Listings</h1>
             <a href="#" className='text-[#EC522E] mt-1 '>
                 VIEW MORE

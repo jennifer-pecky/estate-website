@@ -8,15 +8,12 @@ import Listing from './Listing';
 // import {CARD__DATA} from "../../../Asset/Data/Data"
 
 const Card = ({ imgUrl, id, title, desc, prize }) => {
-    console.log(CARD__DATA);
     const { globalPadding } = styles
     return (
         <section className={`${globalPadding} px-20`}>
-            <Listing />
-
-            <div className='flex'>
+            <div className=''>
                 <div className='flex flex-col mt-10 mb-9 w-[370px] h-[631px] border-2 border-[#707070] rounded-[8px] space-y-2'>
-                    <img src={imgUrl} alt="" className='w-[370px] h-[340px]' />
+                    <img src={`/images/${imgUrl}`} alt="" className='w-[370px] h-[340px]' />
                     <div className='px-5 space-y-1'>
                         <p className='font-bold text-base tracking-wide'>{title}</p>
                         <p className='text-[#EC522E] font-bold tracking-wide'>{prize}</p>
