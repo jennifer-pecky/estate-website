@@ -1,5 +1,4 @@
 import React from 'react'
-import img from "../../../Asset/images/666666.png"
 import { styles } from '../../../styles/styles.tailwind'
 
 const CEO = () => {
