@@ -2,7 +2,6 @@ import React from 'react'
 import { CARD__DATA } from '../../../Asset/Data/Data';
 import { styles } from '../../../styles/styles.tailwind'
 import './Listing'
-import Listing from './Listing';
 
 // import img from "../../../Asset/images/png2.png"
 // import {CARD__DATA} from "../../../Asset/Data/Data"
@@ -10,8 +9,8 @@ import Listing from './Listing';
 const Card = ({ imgUrl, id, title, desc, prize }) => {
     const { globalPadding } = styles
     return (
-        <section>
-            <div className='px-20'>
+        <section className='max-w-[1166px] mx-auto'>
+            <div>
                 <div className='flex flex-col mt-10 mb-9 w-[370px] h-[631px] border-2 border-[#707070] rounded-[8px] space-y-2'>
                     <img src={`/images/${imgUrl}`} alt="" className='w-[370px] h-[340px]' />
                     <div className='px-5 space-y-1'>
