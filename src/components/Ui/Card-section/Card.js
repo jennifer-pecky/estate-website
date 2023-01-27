@@ -10,8 +10,8 @@ import Listing from './Listing';
 const Card = ({ imgUrl, id, title, desc, prize }) => {
     const { globalPadding } = styles
     return (
-        <section className={`${globalPadding} px-20`}>
-            <div className=''>
+        <section>
+            <div className='px-20'>
                 <div className='flex flex-col mt-10 mb-9 w-[370px] h-[631px] border-2 border-[#707070] rounded-[8px] space-y-2'>
                     <img src={`/images/${imgUrl}`} alt="" className='w-[370px] h-[340px]' />
                     <div className='px-5 space-y-1'>

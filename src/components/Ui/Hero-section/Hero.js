@@ -4,9 +4,6 @@ import img from "../../../Asset/images/Rectangle 2.png"
 import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import CEO from '../second-hero/CEO'
-// import Card from '../Card-section/Card'
-
-import { CARD__DATA } from '../../../Asset/Data/Data'
 
 const Hero = () => {
     return (
