@@ -15,11 +15,11 @@ const Hero = () => {
             </div>
 
 
-            <div className='border-2 border-[#666666] max-w-[42%] mx-[7%] rounded-md'>
-                <div className='flex mx-5 text-[#666666] font-medium text-base p-2 items-center justify-between'>
-                    <li className='flex items-center'>Search location < MdOutlineKeyboardArrowDown /></li>
-                    <li className='flex items-center'>Property type < MdOutlineKeyboardArrowDown /></li>
-                    <li className='flex items-center'>Price Range < MdOutlineKeyboardArrowDown /></li>
+            <div className='border-2 border-[#666666] max-w-[44%] mx-[7%] rounded-md '>
+                <div className='flex  text-[#666666] font-medium text-base p-2 space-x-4 items-center justify-between'>
+                    <li className='flex items-center whitespace-nowrap'>Search location < MdOutlineKeyboardArrowDown /></li>
+                    <li className='flex items-center whitespace-nowrap'>Property type < MdOutlineKeyboardArrowDown /></li>
+                    <li className='flex items-center whitespace-nowrap' >Price Range < MdOutlineKeyboardArrowDown /></li>
                     <button className='text-lg px-4 p-2 font-semibold rounded-[5px] hover:text-[black]  text-[#fff] border-2 border-[#EC522E] bg-[#EC522E]'>EXPLORE</button>
                 </div>
             </div>

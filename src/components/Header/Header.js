@@ -17,7 +17,7 @@ const Header = () => {
                         <a href="#" className='text-base hover:text-[#EC522E] duration-500'>Listing</a>
                     </li>
                     <li className='mx-4'>
-                        <a href="#" className='text-base hover:text-[#EC522E] duration-500'>About Us</a>
+                        <a href="#" className='text-base hover:text-[#EC522E] duration-500 whitespace-nowrap'>About Us</a>
                     </li>
                     <li className='mx-4'>
                         <a href="#" className='text-base hover:text-[#EC522E] duration-500'>Contact</a>

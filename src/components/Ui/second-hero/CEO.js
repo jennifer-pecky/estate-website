@@ -11,8 +11,8 @@ const CEO = () => {
             <div className='flex w-full max-w-full space-x-12 '>
                 <div className='w-full max-w-[30%] relative'>
 
-                    <div className={`bg-[#666666] h-[450px] rounded-lg mb-2 absolute w-full bottom-24 `}></div>
-                    <strong className='absolute top-[20rem] text-[13px] left-2'>invest and relax, we work for your dream come true.</strong>
+                    <div className={`bg-[#666666] h-[450px] rounded-lg mb-2 absolute w-full bottom-32 `}></div>
+                    <strong className='absolute top-[19rem] whitespace-nowrap text-[11px] left-5'>invest and relax, we work for your dream come true.</strong>
                 </div>
 
                 <div className=' w-[70%] flex flex-col space-y-5 p-3'>
