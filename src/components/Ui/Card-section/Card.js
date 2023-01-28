@@ -9,7 +9,7 @@ const Card = ({ imgUrl, title, desc, prize }) => {
         <section className='max-w-[1160px] mx-auto'>
             <div className=''>
                 <div className='flex flex-col mt-10 mb-9 w-[370px] h-[631px] border-2 border-[#707070] rounded-[8px] space-y-2'>
-                    <img src={`/images/${imgUrl}`} alt="" className='w-[370px] h-[340px]' />
+                    <img src={`/images/${imgUrl}`} alt="" className='w-[370px] h-[340px] cursor-pointer' />
                     <div className='px-5 space-y-1'>
                         <p className='font-bold text-base tracking-wide'>{title}</p>
                         <p className='text-[#EC522E] font-bold tracking-wide'>{prize}</p>
