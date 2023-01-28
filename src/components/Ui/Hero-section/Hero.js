@@ -30,15 +30,9 @@ const Hero = () => {
                 <div>
                     <img src={img} alt="" />
                 </div>
-                {/* <div>
-                    <img src={img} alt="" />
-                </div>
-                <div>
-                    <img src={img} alt="" />
-                </div> */}
+
             </div>
             <CEO />
-            {/* <Card /> */}
         </section >
 
     )

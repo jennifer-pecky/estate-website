@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Ui/Hero-section/Hero";
 import Listing from "./components/Ui/Card-section/Listing";
 import Cooper from "./components/Ui/Cooper-sction/Cooper";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Listing />
         <Cooper />
+        <Footer />
       </div>
 
 
