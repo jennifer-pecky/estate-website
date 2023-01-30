@@ -16,7 +16,7 @@ const Footer = () => {
                 </div>
 
                 <div className='flex relative px-10'>
-                    <div className='flex w-[690px]  bg-[#fff]  absolute bottom-6'>
+                    <div className='flex w-[690px]  bg-[#fff]  absolute bottom-1'>
                         <div className='p-10'>
                             <form action="/action_page-php" className='space-y-5'>
                                 <input className='p-6 w-[289px] h-4 border-[0.5px] border-[#707070] rounded-[8px]' type="text" placeholder='Your Name' />
@@ -48,7 +48,7 @@ const Footer = () => {
                 </ul>
 
                 <div className='mt-4'>
-                    <p>COPYRIGHT 2020 ALL RIGHT RESERVED</p>
+                    <p className='font-semibold'>COPYRIGHT 2020 ALL RIGHT RESERVED</p>
                 </div>
             </div>
         </section>
