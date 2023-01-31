@@ -15,7 +15,7 @@ const Gallery = () => {
                     <h3 className='text-[#000]'>Lorem Ipsum Dolor Sit Amet</h3>
                 </div>
             </div>
-            <div>
+            <div className='mt-5'>
                 <Slide />
             </div>
 
@@ -36,5 +36,3 @@ export default Gallery
 
 
 
-
-{/* <GallaryCaro /> */ }
