@@ -8,11 +8,12 @@ const Listing = () => {
     const cards = CARD__DATA.map(item => {
         return (
             <Card
-                id={item.id}
+                key={item.id}
                 imgUrl={item.imgUrl}
                 title={item.title}
                 prize={item.prize}
                 desc={item.desc}
+                openSpots={item.openSpots}
             />
         )
     })
