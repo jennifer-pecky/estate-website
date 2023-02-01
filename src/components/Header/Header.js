@@ -32,6 +32,10 @@ const Header = () => {
             <div className=''>
                 <div className='bg-[#666666] w-[548px] h-[543px] -right-7 absolute'></div>
                 <img src={Img} alt="" className=' absolute top-[6rem] right-[5rem]' />
+                <div className='absolute right-20 mt-2'>
+                    <button className='text-sm  font-semibold rounded-[9px] hover:text-[black] w-28 h-12 text-[#fff] border-2 border-[#fff]'>LOG IN</button>
+                    <button className='text-sm ml-4 font-semibold rounded-[9px] hover:text-[black] w-28 h-12 text-[#fff] border-2 border-[#EC522E] bg-[#EC522E]'>SIGN UP</button>
+                </div>
             </div>
         </section>
     )
@@ -63,10 +67,10 @@ export default Header
         //     </nav>
 
         //     <div className='flex mx-24'>
-        //         <button className='text-sm px-6 py-2 mx-4 mt-3 font-semibold rounded-[9px] hover:text-[black] w-28 h-12 text-[#fff] border-2 border-[#fff]'>
+        //         <button className=''>
         //             LOG IN
         //         </button>
-        //         <button className='text-sm px-6 py-2 mx-4 mt-3 font-semibold rounded-[9px] hover:text-[black] w-28 h-12 text-[#fff] border-2 border-[#EC522E] bg-[#EC522E]'>
+        //         <button className=''>
         //             SIGN UP
         //         </button>
         //     </div>
