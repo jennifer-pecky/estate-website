@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from '../Header/Header'
+import NavLinks from '../NavLinks/NavLinks'
 import Footer from '../Footer/Footer'
 import Routers from '../../routes/Routers'
 
 const Layout = () => {
     return (
         <>
-            <Header />
+            <NavLinks />
             <div>
                 <Routers />
             </div>

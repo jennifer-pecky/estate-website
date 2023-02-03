@@ -8,8 +8,6 @@ function App() {
       <div className="max-w-[1281px] mx-auto">
         <Layout />
       </div>
-
-
     </>
   );
 }
