@@ -29,7 +29,7 @@ const Listing = () => {
                 </a>
             </div>
             {/* card */}
-            <div className="flex max-w-full w-full gap-x-10">
+            <div className="flex max-w-full w-full gap-x-7">
                 {cards}
             </div>
         </div>

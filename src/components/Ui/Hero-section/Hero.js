@@ -19,6 +19,21 @@ const Hero = () => {
                     <input type="text" placeholder='Search location, property type ' className=' mx-14 w-[593px] h-[50px] border-[0.20rem] border-[#6666] rounded-[31px] px-12' />
                 </label>
             </div>
+
+
+            {/* <div '>
+                <div className='flex mx-6'>
+                    <a href="https://google.com" target="_blank" rel="">
+                    
+                    </a> *
+
+                    <p className='p-[0.37rem] text-[#666666] font-medium '></p>
+                </div>
+            </div> */}
+
+
+
+
             <CEO />
         </section >
 

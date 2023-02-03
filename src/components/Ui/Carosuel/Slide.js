@@ -11,6 +11,7 @@ const Slide = () => {
     return (
         <div className='w-[1036px] mb-52'>
             <Splide options={{ rewind: true, gap: '1rem', }}>
+
                 <SplideSlide>
                     <img src={img1} alt="Image 1" />
                 </SplideSlide>

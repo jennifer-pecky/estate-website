@@ -1,6 +1,7 @@
 import React from 'react'
 import img from "../../Asset/images/Group 2.png"
 import Img from "../../Asset/images/Rectangle 2.png"
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
@@ -14,16 +15,16 @@ const Header = () => {
                 <div>
                     <ul className='md:flex flex text-[#666666] font-normal whitespace-nowrap mr-9'>
                         <li className='mx-5'>
-                            <a href="#" className='text-base hover:text-[#EC522E] duration-500'>Home</a>
+                            <Link to="/" className='text-base hover:text-[#EC522E] duration-500'>Home</Link>
                         </li>
                         <li className='mx-5'>
-                            <a href="#" className='text-base hover:text-[#EC522E] duration-500'>Listing</a>
+                            <Link to="/listing" className='text-base hover:text-[#EC522E] duration-500'>Listing</Link>
                         </li>
                         <li className='mx-5'>
-                            <a href="#" className='text-base hover:text-[#EC522E] duration-500 whitespace-nowrap'>About Us</a>
+                            <Link to="/about" className='text-base hover:text-[#EC522E] duration-500 whitespace-nowrap'>About Us</Link>
                         </li>
                         <li className='mx-5'>
-                            <a href="#" className='text-base hover:text-[#EC522E] duration-500'>Contact</a>
+                            <Link to="/contact" className='text-base hover:text-[#EC522E] duration-500'>Contact</Link>
                         </li>
                     </ul>
                 </div>
@@ -42,43 +43,3 @@ const Header = () => {
 }
 
 export default Header
-
-
-
-     // <section className='flex'>
-        //     <nav className='flex p-5 px-16 py-8 mx-10'>
-        //         <span className=' cursor-pointer'>
-        //             <img src={img} alt="" />
-        //         </span>
-        //         <ul className='md:flex flex text-[#666666] font-normal'>
-        //             <li className='mx-4'>
-        //                 <a href="#" className='text-base hover:text-[#EC522E] duration-500'>Home</a>
-        //             </li>
-        //             <li className='mx-4'>
-        //                 <a href="#" className='text-base hover:text-[#EC522E] duration-500'>Listing</a>
-        //             </li>
-        //             <li className='mx-4'>
-        //                 <a href="#" className='text-base hover:text-[#EC522E] duration-500 whitespace-nowrap'>About Us</a>
-        //             </li>
-        //             <li className='mx-4'>
-        //                 <a href="#" className='text-base hover:text-[#EC522E] duration-500'>Contact</a>
-        //             </li>
-        //         </ul>
-        //     </nav>
-
-        //     <div className='flex mx-24'>
-        //         <button className=''>
-        //             LOG IN
-        //         </button>
-        //         <button className=''>
-        //             SIGN UP
-        //         </button>
-        //     </div>
-
-        // </section>
-
-
-        // <div className=''>
-// <div className='transform translate-y-2/3 w-[548px] h-[503px] bg-[#666666] opacity-[1]'></div>
-// <img className='transform translate-x-2' src={Img} alt="" />
-// </div>
