@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const NavLinks = () => {
     return (
-        <nav className='px-12 flex space-x-10'>
+        <nav className='px-20 flex space-x-10 p-2'>
             <div>
                 <img src={img} alt="" />
             </div>
