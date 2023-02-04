@@ -39,7 +39,7 @@ const CardListing = () => {
 
 
 
-            <div className='flex space-x-4 text-[#666666] mx-16 mt-10'>
+            <div className='flex space-x-8 text-[#666666] mx-10 mt-10'>
                 <div className='flex w-[270px] h-[50px] border-2 border-[#6666] p-3 space-x-2'>
                     <img src={img2} alt="" />
                     <div className='flex'>
@@ -47,11 +47,15 @@ const CardListing = () => {
                         <MdOutlineArrowDropDown className='mt-1 mx-12 ' />
                     </div>
                 </div>
-                <div className='flex  w-[204pxpx] h-[50px] border-2 border-[#6666] p-3  text-center space-x-2'>
+
+                <div className='flex  w-[204px] h-[50px] border-2 border-[#6666] p-3  space-x-2'>
                     <img src={img3} alt="" />
-                    <h2 className='font-medium'>Price Range</h2>
-                    <MdOutlineArrowDropDown className='mt-1 ' />
+                    <div className='flex'>
+                        <h2 className='font-medium whitespace-nowrap'>Price Range</h2>
+                        <MdOutlineArrowDropDown className='mt-1 mx-10 ' />
+                    </div>
                 </div>
+
                 <div className='flex  w-[204px] h-[50px] border-2 border-[#6666] p-3  space-x-2'>
                     <img src={img4} alt="" />
                     <div className='flex'>
