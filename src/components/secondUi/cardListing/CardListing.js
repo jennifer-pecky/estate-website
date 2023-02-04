@@ -28,9 +28,9 @@ const CardListing = () => {
     return (
         <section>
             <div className='relative flex'>
-                <label htmlFor="" className='px-4'>
+                <label htmlFor="" className=''>
                     <FiSearch className='absolute mt-3 left-[4.5rem] h-6 w-6 text-[#000000]' />
-                    <input type="text" placeholder='Search location, property type ' className='hover:bg-[#666666] mx-[2.8rem] w-[1020px] h-[50px] border-[0.20rem] border-[#6666] rounded-[31px] px-12' />
+                    <input type="text" placeholder='Search location, property type ' className='hover:bg-[#666666] mx-[2.8rem] w-[1055px] h-[50px] border-[0.20rem] border-[#6666] rounded-[31px] px-16' />
                 </label>
                 <div className=' w-[50px] h-[50px] rounded-[30px] border-2 border-[#6666] hover:bg-[#EC522E] left-[70rem] absolute'>
                     <img src={img1} alt="" className='p-3' />
