@@ -21,6 +21,7 @@ const CardListing = () => {
                 prize={item.prize}
                 desc={item.desc}
                 openSpots={item.openSpots}
+                rentSpots={item.rentSpots}
             />
         )
     })
