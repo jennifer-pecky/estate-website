@@ -22,6 +22,8 @@ const CardListing = () => {
                 desc={item.desc}
                 openSpots={item.openSpots}
                 rentSpots={item.rentSpots}
+                rating={item.rating}
+                reviews={item.reviews}
             />
         )
     })
