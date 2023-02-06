@@ -17,7 +17,8 @@ export const CARD__DATA = [
         title: "4 Bedroom, Bungalow at Woji Estate",
         prize: "N1,500,000",
         desc: "Woji Port, Port Harcourt,Rivers State",
-        openSpots: 2
+        openSpots: 2,
+        rentSpots: "Lease"
 
     },
 
@@ -27,7 +28,8 @@ export const CARD__DATA = [
         title: "5 Luxury Apartment at Eilozu",
         prize: "N3,500,000",
         desc: "Eilozu, Port Harcourt,Rivers State",
-        openSpots: 3
+        openSpots: 2,
+        rentSpots: "Lease"
     },
 ]
 

@@ -1,8 +1,11 @@
 import React from 'react'
+import GalSection from '../components/Third-Ui/galSection/GalSection'
 
 const Gallery = () => {
     return (
-        <div>Gallery</div>
+        <div>
+            <GalSection />
+        </div>
     )
 }
 
