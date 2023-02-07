@@ -12,7 +12,7 @@ const About = () => {
                     <hr className="w-20 h-1 mt-4 bg-gray-100 border-0 rounded dark:bg-[#EC522E]"></hr>
                 </div>
                 <div className='text-[#666666] mt-6'>
-                    <p className='Text-[24px] font-medium whitespace-nowrap'>Our gallery only contains properties that has already been sold, rented <br /> leased.</p>
+                    <p className='Text-[24px] font-medium whitespace-nowrap'>We are dedicated to helping our cilents buy, sell and rent properties. </p>
                 </div>
             </div>
 
