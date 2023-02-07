@@ -1,14 +1,14 @@
 import React from 'react'
 
-import img from '../../../Asset/images/img-17.jpg'
-import img2 from '../../../Asset/images/img-12.jpg'
+import img from '../../Asset/images/img-17.jpg'
+import img2 from '../../Asset/images/img-12.jpg'
 
 const About = () => {
     return (
         <section>
             <div className='flex space-x-14 px-20'>
                 <div className='text-[#000000]'>
-                    <h1 className='text-[60px] font-black leading-tight whitespace-nowrap'>Welcome to our <br /> gallery & enjoy</h1>
+                    <h1 className='text-[60px] font-black leading-tight whitespace-nowrap'>Who we are <br /> and what we do</h1>
                     <hr className="w-20 h-1 mt-4 bg-gray-100 border-0 rounded dark:bg-[#EC522E]"></hr>
                 </div>
                 <div className='text-[#666666] mt-6'>
