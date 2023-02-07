@@ -1,7 +1,7 @@
 import React from 'react'
 // import { IMAGE__DATA } from '../../../Asset/Data/Data'
 // import './GalImage'
-import img from '../../../Asset/images/img-4.jpg'
+import img from '../../../Asset/images/img-17.jpg'
 import img2 from '../../../Asset/images/img-12.jpg'
 // import GalImage from './GalImage'
 
@@ -29,9 +29,46 @@ const GalSection = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-2 px-20 gap-4 mt-2'>
-                <img src={img} alt="" className='w-[785px] h-[370px]' />
-                <img src={img2} alt="" className='w-[361px] h-[370px]' />
+            <div className='flex flex-col px-20 space-y-6 mt-6'>
+                <div className='flex space-x-6'>
+                    <img src={img} alt="" className='w-[780px] h-[370px]' />
+                    <img src={img2} alt="" className='w-[361px] h-[370px]' />
+                </div>
+
+                <div className='flex space-x-6'>
+                    <img src={img2} alt="" className='w-[361px] h-[370px]' />
+                    <img src={img} alt="" className='w-[780px] h-[370px]' />
+                </div>
+
+                <div className='flex space-x-6'>
+                    <img src={img} alt="" className='w-[780px] h-[370px]' />
+                    <img src={img2} alt="" className='w-[361px] h-[370px]' />
+                </div>
+
+                <div className='flex space-x-6'>
+                    <img src={img2} alt="" className='w-[361px] h-[370px]' />
+                    <img src={img} alt="" className='w-[780px] h-[370px]' />
+                </div>
+
+                <div className='flex space-x-6'>
+                    <img src={img} alt="" className='w-[780px] h-[370px]' />
+                    <img src={img2} alt="" className='w-[361px] h-[370px]' />
+                </div>
+
+                <div className='flex space-x-6'>
+                    <img src={img2} alt="" className='w-[361px] h-[370px]' />
+                    <img src={img} alt="" className='w-[780px] h-[370px]' />
+                </div>
+
+                <div className='flex space-x-6'>
+                    <img src={img} alt="" className='w-[780px] h-[370px]' />
+                    <img src={img2} alt="" className='w-[361px] h-[370px]' />
+                </div>
+
+                <div className='flex space-x-6'>
+                    <img src={img2} alt="" className='w-[361px] h-[370px]' />
+                    <img src={img} alt="" className='w-[780px] h-[370px]' />
+                </div>
             </div>
         </section>
     )
