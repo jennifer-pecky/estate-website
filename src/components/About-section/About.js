@@ -29,19 +29,19 @@ const About = () => {
                 </div>
 
                 <div>
-                    <p>Our agents are knowlwdgeable about the local real estate market and are equipped with the tools and resources necessary to help you <br /> find the perfect property or to market your home to potential buyers.</p>
-                    <div className='grid grid-cols-2 gap-28 mt-20'>
+                    <p className='Text-[30px] font-medium'>Our agents are knowlwdgeable about the local real estate market and are equipped with the tools and resources necessary to help you <br /> find the perfect property or to market your home to potential buyers.</p>
+                    <div className='grid grid-cols-2 gap-16 mt-20'>
                         <div>
                             <h1 className='text-[40px] font-black leading-relaxed'>Our Value</h1>
-                            <p>At Major General Real Estate Agency (MGREA) we value <br /> transparency, honsety, and integrity. We believe that building <br /> long term relationship with our clients is the key to success. <br /> We are commited to providing our clients with the best <br /> possible service and experience.</p>
+                            <p className='Text-[30px] font-medium'>At Major General Real Estate Agency (MGREA) we value <br /> transparency, honsety, and integrity. We believe that building <br /> long term relationship with our clients is the key to success. <br /> We are commited to providing our clients with the best <br /> possible service and experience.</p>
                         </div>
                         <div>
                             <h1 className='text-[40px] font-black leading-relaxed'>Our Mission</h1>
-                            <p>Our Mission is to provide our clients with the highest level of <br /> service, expertise, and integrity in order to help them achieve <br /> their real estate goals.</p>
+                            <p className='Text-[30px] font-medium'>Our Mission is to provide our clients with the highest level of <br /> service, expertise, and integrity in order to help them achieve <br /> their real estate goals.</p>
                         </div>
                         <div>
                             <h1 className='text-[40px] font-black leading-relaxed'>Our Vision</h1>
-                            <p>Our vision is to be the premier real estate agency in the area known for providing exceptional service and achieving outstanding results for our clients. </p>
+                            <p className='Text-[30px] font-medium'>Our vision is to be the premier real estate agency in the area known for providing exceptional service and achieving outstanding results for our clients. </p>
                         </div>
 
                         <div className='relative'>
