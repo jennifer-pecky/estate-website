@@ -215,3 +215,94 @@ export const LISTING__DATA = [
         reviews: "18 reviews"
     },
 ]
+
+
+export const IMAGE__DATA = [
+    {
+        id: "01",
+        imageUrl: "http://localhost:3000/images/img-3.png",
+    },
+
+    {
+        id: "02",
+        imageUrl: "http://localhost:3000/images/img-3.png"
+    },
+
+    {
+        id: "03",
+        imageUrl: "http://localhost:3000/images/img-3.png",
+    },
+
+    {
+        id: "04",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png"
+    },
+    {
+        id: "05",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png",
+
+    },
+    {
+        id: "06",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png"
+    },
+    {
+        id: "07",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png",
+    },
+
+    {
+        id: "08",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png"
+    },
+
+    {
+        id: "09",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png",
+    },
+
+    {
+        id: "10",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png"
+    },
+
+    {
+        id: "11",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png",
+    },
+
+    {
+        id: "12",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png"
+    },
+
+    {
+        id: "13",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png",
+    },
+
+    {
+        id: "14",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png"
+    },
+
+    {
+        id: "15",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png",
+    },
+
+    {
+        id: "16",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png"
+    },
+
+    {
+        id: "17",
+        imageUrl: "http://localhost:3000/imageUrl/img-3.png",
+    },
+
+    {
+        id: "18",
+        imageUrl: "http://localhost:3000/images/img-3.png"
+    }
+]
