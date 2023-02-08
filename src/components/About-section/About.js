@@ -71,10 +71,10 @@ const About = () => {
                     <p className='Text-[30px] font-medium leading-relaxed'>Our valuation report also includes a detailed breakdown of comparable <br /> properties in your  area so you can see how your stocks up <br /> against the competition. This information can help you make  informed <br /> decisions about pricing, staging and marketing your property.</p>
                 </div>
 
-                <div className='mt-7 space-y-1 w-[563px] h-[300px] border-2 border-[#E3E3E3] p-[0.8rem]'>
+                <div className='mt-7 space-y-3 w-[563px] h-[300px] border-2 border-[#E3E3E3] p-[0.8rem]'>
                     <img src={img5} alt="" />
                     <h2 className='text-[18px] font-bold'>Find a Property</h2>
-                    <p className='Text-[30px] font-medium leading-relaxed'>Our website offers a comprehensive and user-friendly search tool that <br /> makes it easy to find properties that meet your specific needs and <br /> preference. <br /> you can contact any agency directly to help you find what you find what your <br /> looking for </p>
+                    <p className='Text-[30px] font-medium leading-normal'>Our website offers a comprehensive and user-friendly search tool that <br /> makes it easy to find properties that meet your specific needs and <br /> preference. <br /> you can contact any agency directly to help you find what you find what your <br /> looking for </p>
                 </div>
 
                 <div className='mt-7 space-y-3 w-[563px] h-[300px] border-2 border-[#E3E3E3] p-4'>
