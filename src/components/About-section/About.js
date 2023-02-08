@@ -59,25 +59,25 @@ const About = () => {
 
 
             <div className='grid grid-cols-2 gap-x-16 mt-20 px-20'>
-                <div className='space-y-3 w-[563px] h-[300px] border-2 border-[#E3E3E3] p-3'>
+                <div className='space-y-3 w-[563px] h-[300px] max-w-screen-mobile border-2 border-[#E3E3E3] p-3'>
                     <img src={img3} alt="" />
                     <h2 className='text-[18px] font-bold'>Property Management</h2>
                     <p className='Text-[30px] font-medium '>We offer management services for landlords and renters. Our  <br /> agency are experts in the field and are dedicated to ensuring that <br /> your rental property is well - maintained and that your tenants are satisfied. </p>
                 </div>
 
-                <div className='space-y-3 w-[563px] h-[300px] border-2 border-[#E3E3E3] p-4'>
+                <div className='space-y-3 w-[563px] max-w-screen-mobile h-[300px] border-2 border-[#E3E3E3] p-4'>
                     <img src={img4} alt="" />
                     <h2 className='text-[18px] font-bold'>Property Valuation</h2>
                     <p className='Text-[30px] font-medium leading-relaxed'>Our valuation report also includes a detailed breakdown of comparable <br /> properties in your  area so you can see how your stocks up <br /> against the competition. This information can help you make  informed <br /> decisions about pricing, staging and marketing your property.</p>
                 </div>
 
-                <div className='mt-7 space-y-3 w-[563px] h-[300px] border-2 border-[#E3E3E3] p-[0.8rem]'>
+                <div className='mt-7 space-y-3 max-w-screen-mobile w-[563px] h-[300px] border-2 border-[#E3E3E3] p-[0.5rem]'>
                     <img src={img5} alt="" />
                     <h2 className='text-[18px] font-bold'>Find a Property</h2>
                     <p className='Text-[30px] font-medium leading-normal'>Our website offers a comprehensive and user-friendly search tool that <br /> makes it easy to find properties that meet your specific needs and <br /> preference. <br /> you can contact any agency directly to help you find what you find what your <br /> looking for </p>
                 </div>
 
-                <div className='mt-7 space-y-3 w-[563px] h-[300px] border-2 border-[#E3E3E3] p-4'>
+                <div className='mt-7 space-y-3 max-w-screen-mobile w-[563px] h-[300px] border-2 border-[#E3E3E3] p-4'>
                     <img src={img6} alt="" />
                     <h2 className='text-[18px] font-bold'>Buy, sell, lease, Rent of properties</h2>
                     <p className='Text-[30px]font-medium leading-relaxed '>Whether your looking for buy, sell, lease or rent a property,our agency <br /> has everything you need to make your real estate transaction a <br /> success. Browse our listings today and take the first step towards <br /> achieving your real estate goals!</p>
