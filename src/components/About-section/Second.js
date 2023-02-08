@@ -25,18 +25,54 @@ const Second = () => {
         <div className='flex space-x-20 px-14 mt-14'>
           <div>
             <div className='w-[279px] h-[279px] bg-[#C4C4C4] rounded-[8px]'></div>
-            <h1>Major Jr.</h1>
-            <h4>Chief Executive Officer</h4>
+            <div className='flex flex-col items-center'>
+              <h1>Major Jr.</h1>
+              <h4>Chief Executive Officer</h4>
+            </div>
           </div>
           <div>
             <div className='w-[279px] h-[279px] bg-[#C4C4C4] rounded-[8px]'></div>
-            <h1>Major Jr.</h1>
-            <h4>Chief Executive Officer</h4>
+            <div className='flex flex-col items-center'>
+              <h1>Marvellous Major</h1>
+              <h4>Creative Director</h4>
+            </div>
           </div>
           <div>
             <div className='w-[279px] h-[279px] bg-[#C4C4C4] rounded-[8px]'></div>
-            <h1>Major Jr.</h1>
-            <h4>Chief Executive Officer</h4>
+            <div className='flex flex-col items-center'>
+              <h1>John Elusiahu</h1>
+              <h4>field Agent</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='px-20 mt-36'>
+        <div className='bg-[#EFEFEF] w-[1166px] h-[677px]'>
+          <div className='text-center flex flex-col'>
+            <h1 className='text-[45px] font-bold leading-tight mt-12'>Frequently asked  questions</h1>
+            <p className='text-center font-normal'>We provide a complete serives for the sale, purchase or rental of real estate. we provide a complete, we <br /> provide a complete service for the sale. </p>
+          </div>
+
+          <div className='grid grid-cols-2 gap-x-8 gap-6 p-5 mt-14'>
+            <div className='w-[534px] h-[100px] p-8 bg-[#fff]'>
+              <p>what services dose MGREA offer?</p>
+            </div>
+            <div className='w-[534px] h-[100px] p-8 bg-[#fff]'>
+              <p>what services dose MGREA offer?</p>
+            </div>
+            <div className='w-[534px] h-[100px] p-8 bg-[#fff]'>
+              <p>what services dose MGREA offer?</p>
+            </div>
+            <div className='w-[534px] h-[100px] p-8 bg-[#fff]'>
+              <p>what services dose MGREA offer?</p>
+            </div>
+            <div className='w-[534px] h-[100px] p-8 bg-[#fff]'>
+              <p>what services dose MGREA offer?</p>
+            </div>
+            <div className='w-[534px] h-[100px] p-8 bg-[#fff]'>
+              <p>what services dose MGREA offer?</p>
+            </div>
           </div>
         </div>
       </div>
