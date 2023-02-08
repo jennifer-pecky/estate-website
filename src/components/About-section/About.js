@@ -6,6 +6,8 @@ import img3 from '../../Asset/images/Group 19.png'
 import img4 from '../../Asset/images/Group 21.png'
 import img5 from '../../Asset/images/Group 22.png'
 import img6 from '../../Asset/images/Group 23.png'
+import './Second'
+import Second from './Second'
 
 const About = () => {
     return (
@@ -60,7 +62,7 @@ const About = () => {
                 <div className='space-y-3 w-[563px] h-[300px] border-2 border-[#E3E3E3] p-3'>
                     <img src={img3} alt="" />
                     <h2 className='text-[18px] font-bold'>Property Management</h2>
-                    <p className='Text-[30px] font-medium leading-relaxed'>We offer management services for landlords and renters. Our  <br /> agency are experts in the field and are dedicated to ensuring that <br /> your rental property is well - maintained and that your tenants are satisfied. </p>
+                    <p className='Text-[30px] font-medium '>We offer management services for landlords and renters. Our  <br /> agency are experts in the field and are dedicated to ensuring that <br /> your rental property is well - maintained and that your tenants are satisfied. </p>
                 </div>
 
                 <div className='space-y-3 w-[563px] h-[300px] border-2 border-[#E3E3E3] p-4'>
@@ -72,7 +74,7 @@ const About = () => {
                 <div className='mt-7 space-y-1 w-[563px] h-[300px] border-2 border-[#E3E3E3] p-[0.8rem]'>
                     <img src={img5} alt="" />
                     <h2 className='text-[18px] font-bold'>Find a Property</h2>
-                    <p className='Text-[30px] font-medium leading-relaxed max-w-6'>Our website offers a comprehensive and user-friendly search tool that <br /> makes it easy to find properties that meet your specific needs and <br /> preference. <br /> you can contact any agency directly to help you find what you find what your <br /> looking for </p>
+                    <p className='Text-[30px] font-medium leading-relaxed'>Our website offers a comprehensive and user-friendly search tool that <br /> makes it easy to find properties that meet your specific needs and <br /> preference. <br /> you can contact any agency directly to help you find what you find what your <br /> looking for </p>
                 </div>
 
                 <div className='mt-7 space-y-3 w-[563px] h-[300px] border-2 border-[#E3E3E3] p-4'>
@@ -81,6 +83,10 @@ const About = () => {
                     <p className='Text-[30px]font-medium leading-relaxed '>Whether your looking for buy, sell, lease or rent a property,our agency <br /> has everything you need to make your real estate transaction a <br /> success. Browse our listings today and take the first step towards <br /> achieving your real estate goals!</p>
                 </div>
             </div>
+            <div >
+                <Second />
+            </div>
+
         </section>
     )
 }
