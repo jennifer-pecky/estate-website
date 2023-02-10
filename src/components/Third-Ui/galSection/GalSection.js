@@ -3,6 +3,8 @@ import React from 'react'
 // import './GalImage'
 import img from '../../../Asset/images/img-17.jpg'
 import img2 from '../../../Asset/images/img-12.jpg'
+import left from '../../../Asset/images/left.png'
+import right from '../../../Asset/images/right.png'
 // import GalImage from './GalImage'
 
 const GalSection = () => {
@@ -68,6 +70,21 @@ const GalSection = () => {
                 <div className='flex space-x-6'>
                     <img src={img2} alt="" className='w-[361px] h-[370px]' />
                     <img src={img} alt="" className='w-[780px] h-[370px]' />
+                </div>
+            </div>
+
+
+            <div className='flex mt-20 justify-center '>
+                <div className='w-[63px] h-[64px] mb-16 border-[0.2px] hover:bg-[#666666]  border-[#707070] p-4 rounded-[8px]'>
+                    <a href="">
+                        <img src={left} alt="" />
+                    </a>
+                </div>
+
+                <div className='w-[64px] h-[64px] mb-10 border-2 p-4 hover:bg-[#666666] rounded-[8px] bg-[#EC522E]'>
+                    <a href="">
+                        <img src={right} alt="" />
+                    </a>
                 </div>
             </div>
         </section>

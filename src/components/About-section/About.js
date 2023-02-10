@@ -23,7 +23,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col px-20 space-y-6 mt-6'>
+            <div className='flex flex-col px-20 space-y-6 mt-6 max-w-ful'>
                 <div className='flex space-x-6'>
                     <img src={img} alt="" className='w-[780px] h-[370px]' />
                     <img src={img2} alt="" className='w-[361px] h-[370px]' />
