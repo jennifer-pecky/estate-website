@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './CardListing'
 import ReactStars from "react-rating-stars-component"
-import { render } from "react-dom"
 
-const SecondCard = ({ imgUrl, title, desc, openSpots, rentSpots, prize, rating, reviews }) => {
+
+const SecondCard = ({ imgUrl, title, desc, openSpots, rentSpots, prize, rating, reviews, handleOpenModal }) => {
     let badgeText
     if (openSpots === 2) {
         badgeText = "Available"
@@ -14,6 +14,9 @@ const SecondCard = ({ imgUrl, title, desc, openSpots, rentSpots, prize, rating, 
     const ratingChanged = (newRating) => {
         console.log(newRating)
     }
+
+
+
     return (
         <section className='max-w-[100%] mx-5 relative'>
             <div className='flex flex-col mt-5 mb-9 w-full h-[650px] border-2 border-[#707070] rounded-[8px] space-y-2'>
@@ -43,8 +46,8 @@ const SecondCard = ({ imgUrl, title, desc, openSpots, rentSpots, prize, rating, 
                         <p className='text-[#666666] font-[30px] text-[13px] mt-9'>{rating}</p>
                         <h4 className='text-[#666666] font-[30px] text-[13px] mt-[2.8rem]'>{reviews}</h4>
                     </div>
-                    <div className='flex space-x-3'>
-                        <button className='text-sm  font-semibold mt-2 rounded-[6px] w-[95px] h-[42px] hover:bg-[#707070] text-[#EC522E] border-2 border-[#EC522E]'>VIEW</button>
+                    <div className='flex space-x-3 '>
+                        <button className='text-sm  font-semibold mt-2 rounded-[6px] w-[95px] h-[42px] hover:bg-[#707070] text-[#EC522E] border-2 border-[#EC522E] relative' onClick={handleOpenModal}>VIEW</button>
                         <button className='text-sm  font-semibold mt-2 rounded-[6px] w-[200px] h-[42px] hover:bg-[#707070] text-[#fff] border-2 border-[#EC522E] bg-[#EC522E]'>CONTACT FOR INSPECTION</button>
                     </div>
 

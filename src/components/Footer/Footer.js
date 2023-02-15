@@ -1,8 +1,13 @@
 import React from 'react'
 import { styles } from '../../styles/styles.tailwind'
+import { useLocation } from 'react-router-dom'
 
 
-const Footer = () => {
+const Footer = ({ path }) => {
+    const { pathname } = useLocation();
+    console.log(pathname)
+    if (pathname === '/contact') return null;
+
     const { globalPadding } = styles
     return (
         <section className={`px-20 bg-[#666666] ${globalPadding}`}>

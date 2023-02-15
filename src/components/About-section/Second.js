@@ -18,9 +18,9 @@ const Second = () => {
 
 
       <div className='px-20'>
-        <div className='flex mt-36 space-x-24'>
-          <h1 className='text-[60px] font-bold leading-tight whitespace-nowrap'>Meet our teams <br /> at your service</h1>
-          <p className='Text-[30px] font-normal whitespace-nowrap leading-loose'>At major General Real Estate Agency (MGREA), we value <br /> transparency, honesty and integrity. We believe that building <br /> long-term relationship with our cilents is the key to success. We <br /> are committed to providing our clients with the best possible <br />service amd experience.  </p>
+        <div className='flex mt-36 justify-between'>
+          <h1 className='text-[40px] font-bold leading-tight whitespace-nowrap'>Meet our teams <br /> at your service</h1>
+          <p className='Text-[30px] font-normal whitespace-nowrap leading-6 opacity-95'>At major General Real Estate Agency (MGREA), we value <br /> transparency, honesty and integrity. We believe that building <br /> long-term relationship with our cilents is the key to success. We <br /> are committed to providing our clients with the best possible <br />service amd experience.  </p>
         </div>
 
         <div className='flex space-x-20 px-14 mt-14 max-w-ful'>
@@ -42,7 +42,7 @@ const Second = () => {
             <div className='w-[279px] h-[279px] bg-[#C4C4C4] rounded-[8px]'></div>
             <div className='flex flex-col items-center'>
               <h1>John Elusiahu</h1>
-              <h4>field Agent</h4>
+              <h4>Field Agent</h4>
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Modals from '../../Modal/Modals';
 import { FiSearch } from 'react-icons/fi';
 import img1 from '../../../Asset/images/flilter.png'
 import { MdOutlineArrowDropDown } from 'react-icons/md'
@@ -12,6 +13,10 @@ import { LISTING__DATA } from '../../../Asset/Data/Data'
 
 
 const CardListing = () => {
+    const [openModal, setOpenModal] = useState(false)
+    const handleOpenModal = () => {
+        setOpenModal(!openModal)
+    }
     const Cards = LISTING__DATA.map(item => {
         return (
             <SecondCard
@@ -24,12 +29,16 @@ const CardListing = () => {
                 rentSpots={item.rentSpots}
                 rating={item.rating}
                 reviews={item.reviews}
+                handleOpenModal={handleOpenModal}
             />
         )
     })
 
+
+
     return (
         <section>
+            {openModal && <Modals handleOpenModal={handleOpenModal} />}
             <div className='relative flex'>
                 <label htmlFor="" className=''>
                     <FiSearch className='absolute mt-3 left-[4.5rem] h-6 w-6 text-[#000000]' />

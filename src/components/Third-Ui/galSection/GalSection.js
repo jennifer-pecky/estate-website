@@ -74,14 +74,14 @@ const GalSection = () => {
             </div>
 
 
-            <div className='flex mt-20 justify-center '>
-                <div className='w-[63px] h-[64px] mb-16 border-[0.2px] hover:bg-[#666666]  border-[#707070] p-4 rounded-[8px]'>
+            <div className='flex mt-20 justify-center space-x-7'>
+                <div className='w-[63px] h-[64px] mb-16 border-[0.2px] hover:bg-[#666666]  border-[#707070] p-5 rounded-[8px]'>
                     <a href="">
                         <img src={left} alt="" />
                     </a>
                 </div>
 
-                <div className='w-[64px] h-[64px] mb-10 border-2 p-4 hover:bg-[#666666] rounded-[8px] bg-[#EC522E]'>
+                <div className='w-[64px] h-[64px] border-2 p-4 hover:bg-[#666666] rounded-[8px] bg-[#EC522E]'>
                     <a href="">
                         <img src={right} alt="" />
                     </a>

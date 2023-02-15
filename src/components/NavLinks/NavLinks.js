@@ -1,8 +1,13 @@
 import React from 'react'
 import img from "../../Asset/images/Group 2.png"
 import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
+import Footer from '../Footer/Footer'
 
-const NavLinks = () => {
+const NavLinks = ({ path }) => {
+    const { pathname } = useLocation()
+    if (pathname === '/contact') return null;
+
     return (
         <nav className='px-20 flex space-x-10 p-2'>
             <div>
