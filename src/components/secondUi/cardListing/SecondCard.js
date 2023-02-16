@@ -40,7 +40,6 @@ const SecondCard = ({ imgUrl, title, desc, openSpots, rentSpots, prize, rating, 
                                 onChange={ratingChanged}
                                 size={24}
                                 activeColor="#ffd700"
-
                             />
                         </div>
                         <p className='text-[#666666] font-[30px] text-[13px] mt-9'>{rating}</p>
