@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactStars from "react-rating-stars-component"
-import img from "../../Asset/images/Ellipse 6@2x.png"
+import img from "../../Asset/images/Ellipse 6.png"
 
 const Review = () => {
 
@@ -29,7 +29,7 @@ const Review = () => {
                                     activeColor="#ffd700"
                                 />
                             </div>
-                            <p className='Text-[30px] font-medium leading-normal w-[683px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis totam itaque odit ducimus suscipit cupiditate. Ipsum alias aut praesentium eveniet, at assumenda, sequi cum quam corporis atque culpa dolores, ullam animi reprehenderit. Nemo aliquid aliquam eaque quia ratione, reiciendis expedita, porro error rem fugit, dolor laudantium reprehenderit. Ipsa, sequi a?</p>
+                            <p className='Text-[30px] font-normal leading-relaxed'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem</p>
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@ const Review = () => {
                                     activeColor="#ffd700"
                                 />
                             </div>
-                            <p className='Text-[30px] font-medium leading-normal w-[683px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis totam itaque odit ducimus suscipit cupiditate. Ipsum alias aut praesentium eveniet, at assumenda, sequi cum quam corporis atque culpa dolores, ullam animi reprehenderit. Nemo aliquid aliquam eaque quia ratione, reiciendis expedita, porro error rem fugit, dolor laudantium reprehenderit. Ipsa, sequi a?</p>
+                            <p className='Text-[30px] font-normal leading-relaxed'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem</p>
                         </div>
                     </div>
                 </div>
