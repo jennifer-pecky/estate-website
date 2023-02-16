@@ -50,7 +50,7 @@ const Review = () => {
                     </div>
 
 
-                    <div className='w-[683px] h-[79px]  bg-[#FFFFFF] flex justify-center shadow-2xl  shadow-[#00000029] fixed bottom-0'>
+                    <div className='w-[683px] h-[79px]  bg-[#FFFFFF] flex justify-center shadow-2xl p-3 shadow-[#00000029] fixed bottom-0'>
                         <button className='text-sm font-semibold mt-2 rounded-[6px] w-[200px] h-[42px] hover:bg-[#707070] text-[#fff]  border-[#EC522E] bg-[#EC522E] items-end'>CONTACT</button>
                     </div>
                 </div>

@@ -5,11 +5,15 @@ import Review from './Review'
 
 const Modals = ({ handleOpenModal }) => {
     return (
-        <section className='fixed z-20' onClick={handleOpenModal}>
+        <section className='fixed z-20 ' onClick={handleOpenModal}>
             <div className='flex'>
                 <div className='w-[640px] h-[600px] bg-[#00000040]'></div>
                 <div className='max-w-full w-[683px] bg-[#fff] max-h-[600px] overflow-y-auto scroll pop-up'>
-                    <img src={img} alt="" className='w-[683px] h-[377px] max-w-full' />
+                    <div className='relative'>
+                        <img src={img} alt="" className='w-[683px] h-[377px] max-w-full' />
+                        <div className='absolute left-5 bg-[#fff] p-2 rounded-[20px] pl-5 font-bold bottom-[20rem] w-[7rem]'>Availble</div>
+                        <div className='absolute right-7 bg-[#fff] p-[0.6rem] pl-5 rounded-[30px] w-[5rem] h-[2.6rem] font-bold bottom-[20rem]'>Sale</div>
+                    </div>
                     <div className='p-2 space-y-3'>
                         <div className='flex justify-between'>
                             <h1 className='font-bold text-base tracking-wide'>4 Bedroom Duplex at Odili Road</h1>
