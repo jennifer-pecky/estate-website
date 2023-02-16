@@ -30,9 +30,7 @@ const Modals = ({ handleOpenModal }) => {
                     <Review />
                     <br />
 
-                    <div className='w-[683px] h-[79px] y bg-[#FFFFFF] flex justify-center shadow-2xl p-4 shadow-[#00000029] '>
-                        <button className='text-sm font-semibold mt-2 rounded-[6px] w-[200px] h-[42px] hover:bg-[#707070] text-[#fff]  border-[#EC522E] bg-[#EC522E] items-end'>CONTACT</button>
-                    </div>
+
                 </div>
             </div>
         </section>
