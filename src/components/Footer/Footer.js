@@ -19,7 +19,7 @@ const Footer = ({ path }) => {
                         <hr className="w-10 h-1 bg-gray-100 border-0 rounded dark:bg-[#EC522E] mt-4" />
                         <h3 className='text-[#fff]'>Let's Work Together</h3>
                     </div>
-                    <div className='flex'>
+                    <div className='flex space-x-4'>
                         <GoLocation className='text-[#fff] w-[3rem] h-[2.5rem] mt-10' />
                         <p className='text-[#fff] mt-10'>5 Eugene Oba, Street, <br /> Borikiri.Port Harcourt, <br /> Rivers State,Nigeria</p>
                     </div>
@@ -41,8 +41,8 @@ const Footer = ({ path }) => {
             </div>
 
 
-            <div className='mt-20 text-[#fff] pt-5 flex justify-between'>
-                <ul className='flex gap-x-12 p-5 font-bold '>
+            <div className='mt-20 text-[#fff]  flex justify-between'>
+                <ul className='flex gap-x-14 font-medium mt-2 '>
                     <li>
                         <a href="" className=''>Home</a>
                     </li>
@@ -57,7 +57,7 @@ const Footer = ({ path }) => {
                     </li>
                 </ul>
 
-                <div className='mt-4'>
+                <div className=''>
                     <p className='font-semibold'>COPYRIGHT 2020 ALL RIGHT RESERVED</p>
                 </div>
             </div>
