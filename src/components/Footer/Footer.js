@@ -1,6 +1,7 @@
 import React from 'react'
 import { styles } from '../../styles/styles.tailwind'
 import { useLocation } from 'react-router-dom'
+import { GoLocation } from 'react-icons/go'
 
 
 const Footer = ({ path }) => {
@@ -11,17 +12,21 @@ const Footer = ({ path }) => {
     const { globalPadding } = styles
     return (
         <section className={`px-20 bg-[#666666] ${globalPadding}`}>
-            <div className='flex gap-x-20'>
-                <div className='flex flex-col space-y-5 py-24 '>
+            <div className='flex space-x-32'>
+                <div className='flex flex-col py-10 '>
                     <h1 className='font-bold text-[#fff] text-2xl tracking-[1.25px]'>Get in touch</h1>
                     <div className='flex gap-x-1'>
                         <hr className="w-10 h-1 bg-gray-100 border-0 rounded dark:bg-[#EC522E] mt-4" />
                         <h3 className='text-[#fff]'>Let's Work Together</h3>
                     </div>
+                    <div className='flex'>
+                        <GoLocation className='text-[#fff] w-[3rem] h-[2.5rem] mt-10' />
+                        <p className='text-[#fff] mt-10'>5 Eugene Oba, Street, <br /> Borikiri.Port Harcourt, <br /> Rivers State,Nigeria</p>
+                    </div>
                 </div>
 
                 <div className='flex relative px-10'>
-                    <div className='flex w-[670px] bg-[#fff] absolute bottom-[1px]'>
+                    <div className='flex w-[670px] bg-[#fff] absolute bottom-[1rem]'>
                         <div className='p-10'>
                             <form action="/action_page-php" className='space-y-5'>
                                 <input className='p-6 w-[289px] h-4 border-[0.5px] border-[#707070] rounded-[8px]' type="text" placeholder='Your Name' />
@@ -33,8 +38,8 @@ const Footer = ({ path }) => {
 
                     </div>
                 </div>
-
             </div>
+
 
             <div className='mt-20 text-[#fff] pt-5 flex justify-between'>
                 <ul className='flex gap-x-12 p-5 font-bold '>
@@ -61,3 +66,18 @@ const Footer = ({ path }) => {
 }
 
 export default Footer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

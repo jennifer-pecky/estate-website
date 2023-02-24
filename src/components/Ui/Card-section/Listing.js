@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { styles } from '../../../styles/styles.tailwind'
 import { CARD__DATA } from "../../../Asset/Data/Data"
 import Card from './Card'
+import Modals from '../../Modal/Modals';
 
 
 const Listing = () => {
+    const [openModal, setOpenModal] = useState(false)
+    const handleOpenModal = () => {
+        setOpenModal(!openModal)
+    }
+
     const cards = CARD__DATA.map(item => {
         return (
             <Card
@@ -15,25 +21,31 @@ const Listing = () => {
                 desc={item.desc}
                 openSpots={item.openSpots}
                 rentSpots={item.rentSpots}
+                rating={item.rating}
+                reviews={item.reviews}
+                handleOpenModal={item.handleOpenModal}
             />
         )
     })
 
     const { globalPadding } = styles
     return (
-        <div className={`${globalPadding} px-20`}>
-            <div className='flex justify-between'>
-                <h1 className='font-bold text-4xl'>Featured Listings</h1>
-                <a href="#" className='text-[#EC522E] mt-1 '>
-                    VIEW MORE
-                    <hr className="w-[5.4rem] h-[0.1rem] rounded dark:bg-[#EC522E]"></hr>
-                </a>
+        <section>
+            <div className={`${globalPadding} px-20`}>
+                {openModal && <Modals handleOpenModal={handleOpenModal} />}
+                <div className='flex justify-between'>
+                    <h1 className='font-bold text-4xl'>Featured Listings</h1>
+                    <a href="#" className='text-[#EC522E] mt-1 '>
+                        VIEW MORE
+                        <hr className="w-[5.4rem] h-[0.1rem] rounded dark:bg-[#EC522E]"></hr>
+                    </a>
+                </div>
+                {/* card */}
+                <div className="flex max-w-full w-full gap-x-7">
+                    {cards}
+                </div>
             </div>
-            {/* card */}
-            <div className="flex max-w-full w-full gap-x-7">
-                {cards}
-            </div>
-        </div>
+        </section>
     )
 }
 
