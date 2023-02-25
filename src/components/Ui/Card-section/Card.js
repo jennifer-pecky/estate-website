@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
 import './Listing'
-import Modals from '../../Modal/Modals'
 import ReactStars from "react-rating-stars-component"
 
-// import img from "../../../Asset/images/png2.png"
-// import {CARD__DATA} from "../../../Asset/Data/Data"
 
-const Card = ({ imgUrl, title, desc, prize, openSpots, rating, reviews, rentSpots, handleOpenModal }) => {
+
+const Card = ({ imgUrl, title, desc, prize, openSpots, rating, reviews, rentSpots, handleButtonClick }) => {
 
     const ratingChanged = (newRating) => {
         console.log(newRating)
@@ -49,7 +47,7 @@ const Card = ({ imgUrl, title, desc, prize, openSpots, rating, reviews, rentSpot
                         <h4 className='text-[#666666] font-[30px] text-[13px] mt-[2.8rem]'>{reviews}</h4>
                     </div>
                     <div className='flex space-x-3 '>
-                        <button className='text-sm  font-semibold mt-2 rounded-[6px] w-[95px] h-[42px] hover:bg-[#707070] text-[#EC522E] border-2 border-[#EC522E] relative' onClick={handleOpenModal}>VIEW</button>
+                        <button className='text-sm  font-semibold mt-2 rounded-[6px] w-[95px] h-[42px] hover:bg-[#707070] text-[#EC522E] border-2 border-[#EC522E] relative' onClick={handleButtonClick} >VIEW</button>
                         <button className='text-sm  font-semibold mt-2 rounded-[6px] w-[200px] h-[42px] hover:bg-[#707070] text-[#fff] border-2 border-[#EC522E] bg-[#EC522E]'>CONTACT FOR INSPECTION</button>
                     </div>
 

@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import { styles } from '../../../styles/styles.tailwind'
 import { CARD__DATA } from "../../../Asset/Data/Data"
 import Card from './Card'
-import Modals from '../../Modal/Modals';
+import HomeModal from '../../HomeModal/HomeModal'
+import Agency from '../../Agency/Agency'
 
 
 const Listing = () => {
     const [openModal, setOpenModal] = useState(false)
-    const handleOpenModal = () => {
+    const handleButtonClick = () => {
         setOpenModal(!openModal)
     }
 
@@ -23,7 +24,7 @@ const Listing = () => {
                 rentSpots={item.rentSpots}
                 rating={item.rating}
                 reviews={item.reviews}
-                handleOpenModal={item.handleOpenModal}
+                handleButtonClick={item.handleButtonClick}
             />
         )
     })
@@ -32,7 +33,7 @@ const Listing = () => {
     return (
         <section>
             <div className={`${globalPadding} px-20`}>
-                {openModal && <Modals handleOpenModal={handleOpenModal} />}
+                {openModal && <HomeModal handleButtonClick={handleButtonClick} />}
                 <div className='flex justify-between'>
                     <h1 className='font-bold text-4xl'>Featured Listings</h1>
                     <a href="#" className='text-[#EC522E] mt-1 '>
@@ -45,6 +46,8 @@ const Listing = () => {
                     {cards}
                 </div>
             </div>
+
+            <Agency />
         </section>
     )
 }

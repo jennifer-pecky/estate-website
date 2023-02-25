@@ -12,16 +12,16 @@ const Footer = ({ path }) => {
     const { globalPadding } = styles
     return (
         <section className={`px-20 bg-[#666666] ${globalPadding}`}>
-            <div className='flex space-x-32'>
-                <div className='flex flex-col py-10 '>
+            <div className='flex space-x-24'>
+                <div className='flex flex-col py-12 '>
                     <h1 className='font-bold text-[#fff] text-2xl tracking-[1.25px]'>Get in touch</h1>
                     <div className='flex gap-x-1'>
                         <hr className="w-10 h-1 bg-gray-100 border-0 rounded dark:bg-[#EC522E] mt-4" />
                         <h3 className='text-[#fff]'>Let's Work Together</h3>
                     </div>
-                    <div className='flex space-x-4'>
-                        <GoLocation className='text-[#fff] w-[3rem] h-[2.5rem] mt-10' />
-                        <p className='text-[#fff] mt-10'>5 Eugene Oba, Street, <br /> Borikiri.Port Harcourt, <br /> Rivers State,Nigeria</p>
+                    <div className='flex space-x-1 '>
+                        <GoLocation className='text-[#fff] w-[3rem] h-[2.3rem] mt-10' />
+                        <p className='text-[#fff] mt-10 leading-normal'>5 Eugene Oba, Street, <br /> Borikiri.Port Harcourt, <br /> Rivers State,Nigeria</p>
                     </div>
                 </div>
 
@@ -33,7 +33,7 @@ const Footer = ({ path }) => {
                                 <input className='p-6 w-[289px] h-4 border-[0.5px] border-[#707070] rounded-[8px]' type="text" placeholder='Your Email' />
                                 <input className='p-8 w-[570px] h-[166px] border-[1px]  border-[#707070]  rounded-[8px]' type="text" placeholder='Your Message' />
                             </form>
-                            <button className='w-[154px] h-[61px] ml-[69%] mt-4 hover:bg-[#666666] rounded-[4px] border-[#EC522E] border-2 bg-[#EC522E] text-[#fff]'>Submit</button>
+                            <button className='w-[147px] h-[55px] ml-[72%] mt-4 hover:bg-[#666666] rounded-[4px] border-[#EC522E] border-2 bg-[#EC522E] text-[#fff] font-semibold'>Submit</button>
                         </div>
 
                     </div>
