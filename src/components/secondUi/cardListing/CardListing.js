@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import Modals from '../../Modal/Modals';
 import { FiSearch } from 'react-icons/fi';
 import img1 from '../../../Asset/images/flilter.png'
@@ -10,13 +10,13 @@ import img5 from '../../../Asset/images/country.png'
 import img6 from '../../../Asset/images/city.png'
 import SecondCard from './SecondCard';
 import { LISTING__DATA } from '../../../Asset/Data/Data'
+import { ModalContext } from '../../../Context/Modalcontext';
+import Agency from '../../Agency/Agency';
 
 
 const CardListing = () => {
-    const [openModal, setOpenModal] = useState(false)
-    const handleOpenModal = () => {
-        setOpenModal(!openModal)
-    }
+    const { viewAgency, contactModal } = useContext(ModalContext)
+
     const Cards = LISTING__DATA.map(item => {
         return (
             <SecondCard
@@ -29,16 +29,16 @@ const CardListing = () => {
                 rentSpots={item.rentSpots}
                 rating={item.rating}
                 reviews={item.reviews}
-                handleOpenModal={handleOpenModal}
+            // handleOpenModal={handleOpenModal}
+            // handleOpenAgency={handleOpenAgency}
             />
         )
     })
 
-
-
     return (
         <section>
-            {openModal && <Modals handleOpenModal={handleOpenModal} />}
+            {viewAgency && <Modals />}
+            {contactModal && <Agency />}
             <div className='relative flex'>
                 <label htmlFor="" className=''>
                     <FiSearch className='absolute mt-3 left-[4.5rem] h-6 w-6 text-[#000000]' />

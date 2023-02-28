@@ -3,7 +3,7 @@ import { styles } from '../../../styles/styles.tailwind'
 import { CARD__DATA } from "../../../Asset/Data/Data"
 import Card from './Card'
 import HomeModal from '../../HomeModal/HomeModal'
-import Agency from '../../Agency/Agency'
+// import Agency from '../../Agency/Agency'
 
 
 const Listing = () => {
@@ -47,7 +47,7 @@ const Listing = () => {
                 </div>
             </div>
 
-            <Agency />
+            {/* <Agency /> */}
         </section>
     )
 }

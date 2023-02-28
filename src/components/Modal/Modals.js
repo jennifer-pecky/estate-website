@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import img from '../../Asset/images/img-4.jpg'
 import '../../Asset/styles/styles.css'
+import { ModalContext } from '../../Context/Modalcontext'
 import Review from './Review'
 
-const Modals = ({ handleOpenModal }) => {
+const Modals = () => {
+    const { setViewAgency, setContactModal } = useContext(ModalContext)
+
+    const handleModalClose = () => {
+        setViewAgency(false)
+        setContactModal(true)
+    }
+
     return (
-        <section className='fixed z-20 ' onClick={handleOpenModal}>
+        <section className='fixed z-20 ' onClick={handleModalClose}>
             <div className='flex'>
                 <div className='w-[640px] h-[600px] bg-[#00000040]'></div>
                 <div className='max-w-full w-[683px] bg-[#fff] max-h-[600px] overflow-y-auto scroll pop-up'>

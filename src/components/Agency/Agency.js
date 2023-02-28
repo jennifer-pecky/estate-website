@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ModalContext } from '../../Context/Modalcontext'
 
 const Agency = () => {
+
+    // const handleContactModal = () => {
+    //     setViewAgency(true)
+    // }
+
     return (
         <section>
             <div className='flex'>

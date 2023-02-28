@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
 import ReactStars from "react-rating-stars-component"
 import img from "../../Asset/images/Ellipse 6.png"
+import { ModalContext } from '../../Context/Modalcontext'
+// import Agency from '../Agency/Agency'
+
 
 const Review = () => {
 
     const ratingChanged = (newRating) => {
         console.log(newRating)
+    }
+
+    const { setViewAgency, setContactModal } = useContext(ModalContext)
+
+    const handleContactModal = () => {
+        setViewAgency(false)
+        setContactModal(true)
     }
 
     return (
@@ -51,7 +61,7 @@ const Review = () => {
 
 
                     <div className='w-[683px] h-[79px]  bg-[#FFFFFF] flex justify-center shadow-2xl p-3 shadow-[#00000029] fixed bottom-0'>
-                        <button className='text-sm font-semibold mt-2 rounded-[6px] w-[200px] h-[42px] hover:bg-[#707070] text-[#fff]  border-[#EC522E] bg-[#EC522E] items-end'>CONTACT</button>
+                        <button className='text-sm font-semibold mt-2 rounded-[6px] w-[200px] h-[42px] hover:bg-[#707070] text-[#fff] border-[#EC522E] bg-[#EC522E] items-end' onClick={handleContactModal}>CONTACT</button>
                     </div>
                 </div>
 
