@@ -9,7 +9,6 @@ const Modals = () => {
 
     const handleModalClose = () => {
         setViewAgency(false)
-        setContactModal(true)
     }
 
     return (

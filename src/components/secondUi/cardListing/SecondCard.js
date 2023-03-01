@@ -18,8 +18,6 @@ const SecondCard = ({ imgUrl, title, desc, openSpots, rentSpots, prize, rating, 
 
     const { setViewAgency } = useContext(ModalContext)
 
-
-
     return (
         <section className='max-w-[100%] mx-5 relative'>
             <div className='flex flex-col mt-5 mb-9 w-full h-[650px] border-2 border-[#707070] rounded-[8px] space-y-2'>

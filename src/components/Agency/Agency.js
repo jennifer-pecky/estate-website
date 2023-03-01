@@ -2,20 +2,21 @@ import React, { useContext } from 'react'
 import { ModalContext } from '../../Context/Modalcontext'
 
 const Agency = () => {
+    const { setContactModal } = useContext(ModalContext)
 
-    // const handleContactModal = () => {
-    //     setViewAgency(true)
-    // }
+    const handleContactModal = () => {
+        setContactModal(false)
+    }
 
     return (
-        <section>
+        <section className='fixed z-20' onClick={handleContactModal}>
             <div className='flex'>
                 <div className='w-[640px] h-[600px] bg-[#00000040]'></div>
-                <div>
-                    <div>
-                        <h1>Contact Agency</h1>
-                        <hr />
-                    </div>
+                <div className='bg-[#fff] p-[1.3rem] space-y-4'>
+
+                    <h1 className='font-bold'>Contact Agency</h1>
+                    <hr className='w-[90%] ' />
+
                     <p>Good to know that you are progress in purchasing of the listed property, kindly <br /> provide the necessary details and let us know in the message if you have any <br /> question or specification in mind.</p>
 
                     <div className='flex'>
