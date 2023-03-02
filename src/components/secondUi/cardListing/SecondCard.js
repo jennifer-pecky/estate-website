@@ -16,7 +16,7 @@ const SecondCard = ({ imgUrl, title, desc, openSpots, rentSpots, prize, rating, 
         console.log(newRating)
     }
 
-    const { setViewAgency } = useContext(ModalContext)
+    const { setViewAgency, setContactModal } = useContext(ModalContext)
 
     return (
         <section className='max-w-[100%] mx-5 relative'>
@@ -48,7 +48,7 @@ const SecondCard = ({ imgUrl, title, desc, openSpots, rentSpots, prize, rating, 
                     </div>
                     <div className='flex space-x-3 '>
                         <button className='text-sm  font-semibold mt-2 rounded-[6px] w-[95px] h-[42px] hover:bg-[#707070] text-[#EC522E] border-2 border-[#EC522E] relative' onClick={setViewAgency}>VIEW</button>
-                        <button className='text-sm  font-semibold mt-2 rounded-[6px] w-[200px] h-[42px] hover:bg-[#707070] text-[#fff] border-2 border-[#EC522E] bg-[#EC522E]'>CONTACT FOR INSPECTION</button>
+                        <button className='text-sm  font-semibold mt-2 rounded-[6px] w-[200px] h-[42px] hover:bg-[#707070] text-[#fff] border-2 border-[#EC522E] bg-[#EC522E]' onClick={setContactModal}>CONTACT FOR INSPECTION</button>
                     </div>
 
                 </div>

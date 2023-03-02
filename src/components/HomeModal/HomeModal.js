@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import Review from '../Modal/Review'
+import ReviewHome from './ReviewHome'
 import img from '../../Asset/images/img-4.jpg'
 import './HomeStyle.css'
 import { ModalContext } from '../../Context/Modalcontext'
@@ -37,7 +37,7 @@ const HomeModal = () => {
                     </div>
 
                     <hr />
-                    <Review />
+                    <ReviewHome />
                     <br />
 
 
