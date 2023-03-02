@@ -1,0 +1,7 @@
+.pop-up::-webkit-scrollbar {
+    display: none;
+}
+
+.pop-up {
+    scrollbar-width: none;
+}
