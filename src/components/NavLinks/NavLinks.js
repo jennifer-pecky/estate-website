@@ -2,7 +2,7 @@ import React from 'react'
 import img from "../../Asset/images/Group 2.png"
 import { Link } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
-import Footer from '../Footer/Footer'
+// import Footer from '../Footer/Footer'
 
 const NavLinks = ({ path }) => {
     const { pathname } = useLocation()

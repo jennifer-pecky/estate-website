@@ -6,20 +6,20 @@
     "-": "^0.0.1",
     "@splidejs/react-splide": "^0.7.12",
     "@splidejs/splide-extension-auto-scroll": "^0.5.3",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/jest-dom": "^6.1.6",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
+    "react-icons": "^4.12.0",
     "react-modal": "^3.16.1",
     "react-rating-stars-component": "^2.2.0",
     "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^6.8.0",
+    "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
     "slick-carousel": "^1.8.1",
-    "swiper": "^9.0.1",
-    "web-vitals": "^2.1.4"
+    "swiper": "^11.0.5",
+    "web-vitals": "^3.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -46,6 +46,10 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.2.4"
-  }
+    "tailwindcss": "^3.4.0"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:jennifer-pecky/estate-website.git",
+  "author": "jennifer-pecky <ugojennifer7@gmail.com>",
+  "license": "MIT"
 }
