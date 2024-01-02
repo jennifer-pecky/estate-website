@@ -7,6 +7,8 @@ import { useLocation } from "react-router-dom";
 const NavLinks = ({ path }) => {
   const { pathname } = useLocation();
   if (pathname === "/contact") return null;
+  if (pathname === "/signup") return null;
+  if (pathname === "/login") return null;
 
   return (
     <nav className="mx-auto max-w-7xl ">
@@ -61,13 +63,16 @@ const NavLinks = ({ path }) => {
         </div>
 
         <div className="z-30">
-          <Link>
+          <Link to="/login">
             <button className="text-sm  font-semibold rounded-[9px] hover:text-[black] w-28 h-12 text-[#fff] border-2 border-[#fff] bg-[#666666]">
               LOG IN
             </button>
           </Link>
 
-          <Link>
+          <Link
+            to="signup
+          "
+          >
             <button className="text-sm ml-2 font-semibold rounded-[9px] hover:text-[black] w-28 h-12 text-[#fff] border-2 border-[#EC522E] bg-[#EC522E]">
               SIGN UP
             </button>
