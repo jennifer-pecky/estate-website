@@ -1,0 +1,11 @@
+.ground {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Asset/images/house.png);
+    background-size: cover;
+    /* Use cover to ensure the image covers the entire background */
+    background-position: center;
+    /* Center the background image */
+    height: 100vh;
+    /* Set a specific height for the background */
+    font-size: 62.5%;
+    color: #333;
+}
