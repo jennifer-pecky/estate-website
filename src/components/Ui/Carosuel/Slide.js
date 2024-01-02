@@ -10,7 +10,7 @@ import img6 from '../../../Asset/images/img-9.jpg'
 const Slide = () => {
     return (
         <div className='w-[1036px] mb-52'>
-            <Splide options={{ rewind: true, gap: '1rem', }}>
+            {/* <Splide options={{ rewind: true, gap: '1rem', }}>
 
                 <SplideSlide>
                     <img src={img1} alt="Image 1" />
@@ -27,7 +27,7 @@ const Slide = () => {
                 <SplideSlide className='h-[585px]'>
                     <img src={img6} alt="Image 3" />
                 </SplideSlide>
-            </Splide>
+            </Splide> */}
         </div>
     )
 }

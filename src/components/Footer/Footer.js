@@ -1,7 +1,7 @@
 import React from 'react'
 import { styles } from '../../styles/styles.tailwind'
 import { useLocation } from 'react-router-dom'
-import { GoLocation } from 'react-icons/go'
+// import { GoLocation } from 'react-icons/go'
 
 
 const Footer = ({ path }) => {
@@ -12,7 +12,7 @@ const Footer = ({ path }) => {
     const { globalPadding } = styles
     return (
         <section className={`px-20 bg-[#666666] ${globalPadding}`}>
-            <div className='flex space-x-24'>
+            {/* <div className='flex space-x-24'>
                 <div className='flex flex-col py-12 '>
                     <h1 className='font-bold text-[#fff] text-2xl tracking-[1.25px]'>Get in touch</h1>
                     <div className='flex gap-x-1'>
@@ -38,10 +38,10 @@ const Footer = ({ path }) => {
 
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
-            <div className='mt-20 text-[#fff]  flex justify-between'>
+            {/* <div className='mt-20 text-[#fff]  flex justify-between'>
                 <ul className='flex gap-x-14 font-medium mt-2 '>
                     <li>
                         <a href="" className=''>Home</a>
@@ -60,7 +60,7 @@ const Footer = ({ path }) => {
                 <div className=''>
                     <p className='font-semibold'>COPYRIGHT 2020 ALL RIGHT RESERVED</p>
                 </div>
-            </div>
+            </div> */}
         </section>
     )
 }

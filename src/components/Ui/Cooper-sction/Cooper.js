@@ -1,14 +1,14 @@
 import React from 'react'
-import img from '../../../Asset/images/cooper.png'
+// import img from '../../../Asset/images/cooper.png'
 import { styles } from '../../../styles/styles.tailwind'
-import left from '../../../Asset/images/left.png'
-import right from '../../../Asset/images/right.png'
+// import left from '../../../Asset/images/left.png'
+// import right from '../../../Asset/images/right.png'
 
 const Cooper = () => {
     const { globalPadding } = styles
     return (
         <section className={`${globalPadding} mb-20`}>
-            <div className='flex'>
+            {/* <div className='flex'>
                 <div className='flex relative'>
                     <div className='text-8xl font-semibold text-[#fff] absolute left-[20rem] z-50 mt-2'>
                         “
@@ -40,7 +40,7 @@ const Cooper = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
         </section>

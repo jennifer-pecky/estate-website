@@ -23,7 +23,7 @@ const Card = ({ imgUrl, title, desc, prize, openSpots, rating, reviews, rentSpot
     return (
         <section className='max-w-[100%] relative'>
 
-            <div className='flex flex-col mt-5 mb-9 w-full h-[650px] border-2 border-[#707070] rounded-[8px] space-y-2'>
+            {/* <div className='flex flex-col mt-5 mb-9 w-full h-[650px] border-2 border-[#707070] rounded-[8px] space-y-2'>
                 <img src={`/images/${imgUrl}`} alt="" className='w-[390px] h-[340px] cursor-pointer' />
                 {textBadge && <div className='absolute left-5 bg-[#fff] p-2 rounded-[20px] font-bold'>{textBadge}</div>}
                 {textBadge && <div className='absolute right-7 bg-[#fff] p-[0.6rem] pl-4 rounded-[30px] w-[5rem] h-[2.6rem] font-bold'>{rentSpots}</div>}
@@ -57,7 +57,7 @@ const Card = ({ imgUrl, title, desc, prize, openSpots, rating, reviews, rentSpot
                 </div>
 
 
-            </div>
+            </div> */}
         </section>
     )
 }
