@@ -27,49 +27,75 @@ export const Signup = () => {
                     <input
                       type="text"
                       className="border border-neutral-400 text-[#A1A1A1] text-sm rounded  block w-full ps-10 p-2.5"
-                      placeholder="Email address"
+                      placeholder="Enter Full name"
+                    />
+                  </div>
+                  <div className="relative">
+                    <input
+                      type="text"
+                      className="border border-neutral-400 text-[#A1A1A1] text-sm rounded  block w-full ps-10 p-2.5"
+                      placeholder="Enter Email address"
+                    />
+                  </div>
+                  <div className="relative">
+                    <input
+                      type="number"
+                      className="border border-neutral-400 text-[#A1A1A1] text-sm rounded  block w-full ps-10 p-2.5"
+                      placeholder="Enter phone number"
                     />
                   </div>
                   <div className="relative">
                     <input
                       type="password"
                       className="border border-neutral-400 text-[#A1A1A1] text-sm rounded  block w-full ps-10 p-2.5"
-                      placeholder="Password"
+                      placeholder="Create a Password"
                     />
                   </div>
-                  <div className="flex justify-between">
-                    <div className="flex space-x-4">
-                      <input
-                        type="checkbox"
-                        name="Remember me"
-                        id=""
-                        className="w-6 h-6 bg-white rounded border border-stone-300"
-                      />
-                      <p className="text-zinc-500 text-base font-medium font-['Poppins']">
-                        Remember me
-                      </p>
+                  <div className="relative">
+                    <input
+                      type="password"
+                      className="border border-neutral-400 text-[#A1A1A1] text-sm rounded  block w-full ps-10 p-2.5"
+                      placeholder="Confirm Password"
+                    />
+                  </div>
+                  <div className="flex justify-between pt-6">
+                    <div className="space-y-4">
+                      <div className="flex items-center space-x-5">
+                        <p className="text-[#B9B9B9]">
+                          One lowercase character
+                        </p>
+                      </div>
+                      <div className="flex items-center space-x-5">
+                        <p className="text-[#B9B9B9]">
+                          One uppercase character
+                        </p>
+                        in
+                      </div>
+                      <div className="flex items-center space-x-5">
+                        <p className="text-[#B9B9B9]">One number</p>
+                      </div>
                     </div>
-                    <Link
-                      href={"/ResetPassword"}
-                      className="text-red-400 text-base font-bold font-['Poppins']"
-                    >
-                      Forgotten password?
-                    </Link>
+                    <div className="space-y-4">
+                      <div className="flex items-center space-x-5">
+                        <p className="text-[#B9B9B9]">8 character minimum</p>
+                      </div>
+                      <div className="flex items-center space-x-5">
+                        <p className="text-[#B9B9B9]">One special character</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
-                <div className="space-y-7 pt-16">
+                <div className="space-y-7 pt-8">
                   <div className=" px-72 py-4 bg-red-400 rounded justify-center items-center inline-flex mt-10">
-                    <Link href={"/dashboard"}>
-                      <button className="text-white text-base font-bold font-['Poppins'] whitespace-nowrap">
-                        Sign up
-                      </button>
-                    </Link>
+                    <button className="text-white text-base font-bold font-['Poppins'] whitespace-nowrap">
+                      Create account
+                    </button>
                   </div>
                   <div className="flex justify-center items-center space-x-3">
-                    <p>Don`t have an account?</p>
-                    <Link className="text-red-400" href={"/signup"}>
-                      Create an account
+                    <p>Already have an account?</p>
+                    <Link className="text-red-400" href={"/login"}>
+                      Sign in
                     </Link>
                   </div>
                 </div>
